@@ -1,6 +1,8 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+
 const pageTitle = "About Me";
 
 const identity = {
@@ -62,4 +64,5 @@ const skillColor = "crimson";
 
     {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
   </body>
+  <Footer />
 </html>
